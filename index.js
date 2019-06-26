@@ -13,3 +13,5 @@ let p = new Promise((resolve, reject) => {
             console.log("fail");
         }
     );
+
+console.log('greeting:' + process.env.NODE_GREETING);
