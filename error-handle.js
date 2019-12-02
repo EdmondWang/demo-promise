@@ -7,5 +7,5 @@ let p = new Promise((resolve, reject) => {
         });
     })
     .catch(err => {
-        console.log("catch");
+        console.log("inside catch");
     });
